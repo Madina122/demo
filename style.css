@@ -7,10 +7,10 @@
 }
 ::selection{
   color: #000;
-  background: #63ff8a;
+  background: #cb0c0c;
 }
 body{
-  background: #87ff63;
+  background: #281ae2;
   color: #e0e0e0;
 }
 .select-box, .play-board, .result-box{
