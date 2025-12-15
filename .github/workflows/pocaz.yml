@@ -1,0 +1,21 @@
+name: Testing
+
+on:
+  push:
+    branches:
+      - [master]
+
+
+jobs:
+  pocaz:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print
+        uses: echo "That's just showing"
+
+  pocaz:
+    - name: Print second
+      uses: echo "Num 2"
+
+  
