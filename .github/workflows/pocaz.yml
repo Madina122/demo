@@ -23,7 +23,7 @@ jobs:
   third-pocaz:
     runs-on: windows-latest
 
-    need: second-pocaz
+    needs: second-pocaz
 
     steps:
       - name: Print second
