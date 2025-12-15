@@ -15,7 +15,10 @@ jobs:
         uses: echo "That's just showing"
 
   pocaz:
-    - name: Print second
-      uses: echo "Num 2"
+    runs-on: window
+
+    steps:
+      - name: Print second
+        uses: echo "Num 2"
 
   
