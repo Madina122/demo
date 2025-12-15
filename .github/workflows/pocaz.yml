@@ -13,9 +13,8 @@ jobs:
     steps:
       - name: Print
         uses: echo "That's just showing"
-
-  pocaz:
-    runs-on: window
+  second-pocaz:
+    runs-on: windows-latest
 
     steps:
       - name: Print second
