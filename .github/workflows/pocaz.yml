@@ -12,12 +12,12 @@ jobs:
 
     steps:
       - name: Print
-        uses: echo "That's just showing"
+        run: echo "That's just showing"
   second-pocaz:
     runs-on: windows-latest
 
     steps:
       - name: Print second
-        uses: echo "Num 2"
+        run: echo "Num 2"
 
   
