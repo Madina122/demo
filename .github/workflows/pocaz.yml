@@ -1,0 +1,32 @@
+name: Testing
+
+on:
+  push:
+    branches:
+      - master
+
+
+jobs:
+  pocaz:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print
+        run: echo "That's just showing"
+  second-pocaz:
+    runs-on: windows-latest
+
+    steps:
+      - name: Print second
+        run: echo "Num 2"
+
+  third-pocaz:
+    runs-on: windows-latest
+
+    needs: second-pocaz
+
+    steps:
+      - name: Print second
+        run: echo "Num 3"
+
+  
