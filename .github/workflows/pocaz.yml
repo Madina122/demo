@@ -20,4 +20,11 @@ jobs:
       - name: Print second
         run: echo "Num 2"
 
+  third-pocaz:
+    runs-on: windows-latest
+
+    steps:
+      - name: Print second
+        run: echo "Num 3"
+
   
